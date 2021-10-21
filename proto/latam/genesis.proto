@@ -1,0 +1,11 @@
+syntax = "proto3";
+package danielfarina.latam.latam;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/daniel-farina/latam/x/latam/types";
+
+// GenesisState defines the latam module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
